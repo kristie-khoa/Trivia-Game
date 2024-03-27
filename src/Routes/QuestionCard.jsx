@@ -68,7 +68,7 @@ function QuestionCard({
         </div>
       ) : (
         <div className=" results-button next-button-container">
-          <Link to="/results">
+          <Link to="/Trivia-App/results">
             <button
               className={`next-button ${isNextBtn ? "active" : "disabled"}`}
               onClick={() => {

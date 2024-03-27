@@ -14,10 +14,10 @@ function Home() {
       <h1 className="home-page-h1">Trivia Game</h1>
       <div className="home-page-buttons-container">
         <div className="home-page-buttons">
-          <Link to="/select">
+          <Link to="/Trivia-App/select">
             <button>Lets play</button>
           </Link>
-          <Link to="/results">
+          <Link to="/Trivia-App/results">
             <button
               onClick={() => {
                 handleSetNumCorrect(0);

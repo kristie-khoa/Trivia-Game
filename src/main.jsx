@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Root from "./Routes/Root.jsx";
 import Quiz from "./Routes/Quiz";
@@ -8,25 +8,25 @@ import Results from "./Routes/Results/Results.jsx";
 import Select from "./Routes/Select";
 import Home from "./Routes/Home";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Trivia-App/",
     element: <Root />,
     children: [
       {
-        path: "/",
+        path: "/Trivia-App/",
         element: <Home />,
       },
       {
-        path: "/select",
+        path: "/Trivia-App/select",
         element: <Select />,
       },
       {
-        path: "/:difficulty/:category",
+        path: "/Trivia-App/:difficulty/:category",
         element: <Quiz />,
       },
       {
-        path: "/results",
+        path: "/Trivia-App/results",
         element: <Results />,
         // children: [
         //   {
