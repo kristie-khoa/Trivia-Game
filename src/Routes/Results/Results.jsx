@@ -48,7 +48,7 @@ function Results() {
       />
 
       <div className="next-button-container">
-        <Link to="/Trivia-App/">
+        <Link to="/Trivia-Game/">
           <button className="next-button">Home</button>
         </Link>
       </div>

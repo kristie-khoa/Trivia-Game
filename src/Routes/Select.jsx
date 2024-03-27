@@ -144,7 +144,7 @@ function Select() {
         <Link
           to={
             user && difficulty && isCatSelected
-              ? `/Trivia-App/${difficulty.toLowerCase()}/${currCategory.name.toLowerCase()}`
+              ? `/Trivia-Game/${difficulty.toLowerCase()}/${currCategory.name.toLowerCase()}`
               : null
           }
         >

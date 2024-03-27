@@ -11,7 +11,7 @@ function Header({ user }) {
     <header className="header">
       <div className="header-home-button">
         <div>
-          <Link to={"/Trivia-App/"}>
+          <Link to={"/Trivia-Game/"}>
             <FaHome
               className="home-icon"
               // onMouseOver={({ target }) => (target.style.color = "#ee8802")}

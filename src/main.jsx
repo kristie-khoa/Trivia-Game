@@ -10,23 +10,23 @@ import Home from "./Routes/Home";
 
 const router = createBrowserRouter([
   {
-    path: "/Trivia-App/",
+    path: "/Trivia-Game/",
     element: <Root />,
     children: [
       {
-        path: "/Trivia-App/",
+        path: "/Trivia-Game/",
         element: <Home />,
       },
       {
-        path: "/Trivia-App/select",
+        path: "/Trivia-Game/select",
         element: <Select />,
       },
       {
-        path: "/Trivia-App/:difficulty/:category",
+        path: "/Trivia-Game/:difficulty/:category",
         element: <Quiz />,
       },
       {
-        path: "/Trivia-App/results",
+        path: "/Trivia-Game/results",
         element: <Results />,
         // children: [
         //   {
